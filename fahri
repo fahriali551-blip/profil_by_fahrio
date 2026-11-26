@@ -1,0 +1,81 @@
+<!profil by fahri>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya - Portofolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans leading-relaxed">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-indigo-600">PortofolioKu</h1>
+            <nav class="space-x-6 text-sm font-medium">
+                <a href="#tentang" class="hover:text-indigo-600 transition">Tentang</a>
+                <a href="#keahlian" class="hover:text-indigo-600 transition">Keahlian</a>
+                <a href="#kontak" class="hover:text-indigo-600 transition">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 py-12 space-y-16">
+
+        <!-- Hero Section -->
+        <section class="flex flex-col md:flex-row items-center gap-8 bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80" alt="Foto Profil" class="w-32 h-32 rounded-full object-cover shadow-md">
+            <div class="text-center md:text-left">
+                <h2 class="text-3xl font-bold text-slate-900">Halo, Saya Nama Anda</h2>
+                <p class="text-indigo-600 font-medium mt-1">Frontend Web Developer & UI Enthusiast</p>
+                <p class="text-slate-600 mt-3 text-sm">Saya suka merancang antarmuka web yang bersih, interaktif, dan mudah digunakan oleh semua orang.</p>
+                <div class="mt-5 flex justify-center md:justify-start gap-4">
+                    <a href="#kontak" class="bg-indigo-600 text-white px-5 py-2.5 rounded-lg text-sm font-medium shadow hover:bg-indigo-700 transition">Hubungi Saya</a>
+                    <a href="#keahlian" class="border border-slate-300 px-5 py-2.5 rounded-lg text-sm font-medium text-slate-700 hover:bg-slate-50 transition">Lihat Keahlian</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tentang Saya -->
+        <section id="tentang" class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+            <h3 class="text-xl font-bold text-slate-900 mb-4">Tentang Saya</h3>
+            <p class="text-slate-600">
+                Saya adalah seorang pengembang web yang berfokus pada teknologi modern seperti HTML, CSS, JavaScript, dan kerangka kerja seperti React. Memiliki pengalaman dalam membangun berbagai proyek web responsif dan senang mempelajari hal-hal baru di dunia teknologi.
+            </p>
+        </section>
+
+        <!-- Keahlian -->
+        <section id="keahlian" class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+            <h3 class="text-xl font-bold text-slate-900 mb-6">Keahlian & Teknologi</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-4 bg-slate-50 rounded-xl text-center border border-slate-100 font-medium text-slate-700">HTML5 / CSS3</div>
+                <div class="p-4 bg-slate-50 rounded-xl text-center border border-slate-100 font-medium text-slate-700">JavaScript (ES6+)</div>
+                <div class="p-4 bg-slate-50 rounded-xl text-center border border-slate-100 font-medium text-slate-700">Tailwind CSS</div>
+                <div class="p-4 bg-slate-50 rounded-xl text-center border border-slate-100 font-medium text-slate-700">Git & GitHub</div>
+            </div>
+        </section>
+
+        <!-- Kontak -->
+        <section id="kontak" class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-center">
+            <h3 class="text-xl font-bold text-slate-900 mb-2">Mari Terhubung!</h3>
+            <p class="text-slate-600 text-sm mb-6">Punya pertanyaan atau ingin mengajak berkolaborasi? Jangan ragu untuk menghubungi saya.</p>
+            <div class="flex justify-center gap-4 text-sm font-medium">
+                <a href="mailto:email@domain.com" class="text-indigo-600 hover:underline">Email Saya</a>
+                <span class="text-slate-300">•</span>
+                <a href="https://linkedin.com" target="_blank" class="text-indigo-600 hover:underline">LinkedIn</a>
+                <span class="text-slate-300">•</span>
+                <a href="https://github.com" target="_blank" class="text-indigo-600 hover:underline">GitHub</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 text-xs text-slate-400">
+        <p>&copy; 2026 Fahri ali. Dibuat dengan HTML & Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
